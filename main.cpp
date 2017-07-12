@@ -5,6 +5,10 @@
 
 #include <msp430g2553.h>
 
+
+/**
+ * Led¿‡
+ */
 class LedClass
 {
 public: 
