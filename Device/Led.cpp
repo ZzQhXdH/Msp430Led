@@ -17,7 +17,10 @@ void LedClass::quench(LedPin pin)
 	P1OUT &= ~pin;
 }
 
-
+void LedClass::toggle(LedPin pin)
+{
+	P1OUT ^= pin;
+}
 
 
 
